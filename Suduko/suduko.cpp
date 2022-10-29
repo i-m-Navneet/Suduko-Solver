@@ -33,8 +33,7 @@ bool SolveSudoku(int grid[N][N])
 	} 
 	return false; 
 } 
-bool FindUnassignedLocation(int grid[N][N], 
-							int& row, int& col) 
+bool FindUnassignedLocation(int grid[N][N],int& row, int& col) 
 { 
 	for (row = 0; row < N; row++) 
 		for (col = 0; col < N; col++) 
